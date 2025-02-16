@@ -61,3 +61,31 @@ class taximetro:
         print("3. Para registrar que el taxi está parado, escriba 'parar'.")
         print("4. Para finalizar el trayecto, escriba 'finalizar'.")
         print("5. Para comenzar un nuevo trayecto, simplemente repita 'iniciar'.")
+            
+def menu():
+    taxi = taximetro("Orlando")
+    taxi.mostrar_instrucciones()
+
+    while True:
+        comando = input("\n¿Qué desea hacer? (iniciar/moverse/parar/finalizar/salir): ").strip().lower()
+
+        if comando == 'iniciar' or comando[0] == "i":
+            taxi.iniciar_trayecto()
+        elif comando == 'moverse' or comando[0] == "m":
+            taxi.actualizar_tarifa(True)
+        elif comando == 'parar' or comando[0] == "p":
+            taxi.actualizar_tarifa(False)
+        elif comando == 'finalizar' or comando[0] == "f":
+            taxi.finalizar_trayecto()
+        elif comando == 'salir' or comando[0] == "s":
+            if taxi.en_servicio == False:
+                print("Gracias por usar el simulador de taxi. ¡Hasta luego!")
+                break
+            else:
+                print("Debe finalizar el servicio primero antes de salir")
+        else:
+            print("Comando no reconocido. Intente de nuevo.")
+
+
+if __name__ == "__main__":
+    menu()
