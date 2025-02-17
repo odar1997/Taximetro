@@ -21,24 +21,7 @@ Desarrollar un programa CLI (Interfaz de Línea de Comandos) en Python.
   - Finalizar un trayecto y mostrar el total en euros.
   - Permitir iniciar un nuevo trayecto sin cerrar el programa.
 
-### 🟡 Nivel Medio
 
-- Implementar un sistema de logs para la trazabilidad del código.
-- Agregar tests unitarios para asegurar el correcto funcionamiento del programa.
-- Crear un registro histórico de trayectos pasados en un archivo de texto plano.
-- Permitir la configuración de precios para adaptarse a la demanda actual.
-
-### 🟠 Nivel Avanzado
-
-- Refactorizar el código utilizando un enfoque orientado a objetos (OOP).
-- Implementar un sistema de autenticación con contraseñas para proteger el acceso al programa.
-- Desarrollar una interfaz gráfica de usuario (GUI) para hacer el programa más amigable.
-
-### 🔴 Nivel Experto
-
-- Integrar una base de datos para almacenar los registros de trayectos pasados.
-- Dockerizar la aplicación para facilitar su despliegue y portabilidad.
-- Desarrollar una versión web de la aplicación accesible a través de internet.
 
 ## 🛠️ Tecnologías a Utilizar
 
