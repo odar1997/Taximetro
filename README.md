@@ -133,5 +133,7 @@ actualizar_tarifa: Actualiza la tarifa en función del estado (en movimiento/par
 mostrar_instrucciones: Muestra las instrucciones de uso al usuario.
 Función menu:
 Proporciona un menú interactivo para que el usuario controle el programa.
+
+[trello](https://trello.com/b/C8Arm0GR/proyecto-taximetro)
    
 
